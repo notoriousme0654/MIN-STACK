@@ -1,0 +1,44 @@
+12, 9, 5, 11, 3, 15   
+
+#PUSH OPERATION
+
+Main Stack            Min Stack
+ 15
+ 3
+ 11                     3  --> top of min stack
+ 5                      5
+ 9                      9
+ 12                     12
+
+
+  if Main_Stack [TOP] < Min_Stack [TOP]
+  {
+     push in Min_Stack
+  }  
+ 
+ #POP OPERATION
+
+  if Main_Stack[TOP] = Min_Stack[TOP]
+      pop Min_Stack[TOP]
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
